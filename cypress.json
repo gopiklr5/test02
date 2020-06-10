@@ -1,0 +1,19 @@
+{
+  
+
+    "env": {
+        "url":"https://admin-demo.nopcommerce.com/login",
+        "password": "password",
+        "some": "value",
+        "url1":"http://eaapp.somee.com/"
+
+      },
+      
+      "reporter": "mochawesome"
+     
+  }
+  
+   
+
+
+

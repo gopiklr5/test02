@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-05-30T14:35:58.159Z",
+    "end": "2020-05-30T14:36:12.111Z",
+    "duration": 13952,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e9ada31d-2581-4957-974a-3c6d23a61eb1",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\testing04.spec.js",
+      "file": "cypress\\integration\\examples\\testing04.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ed89d62b-dd55-48c3-bc99-585ee83d78ee",
+          "title": "suitename",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test1",
+              "fullTitle": "suitename test1",
+              "timedOut": null,
+              "duration": 11602,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// locators.clickloginbtn().click();\ncy.get('a').contains('Visit now »').should('have.contain', 'testing123');\ncy.get('a[id=\"loginLink\"]').should(function (tst) {\n  expect(tst).to.contain('Login');\n});\ncy.get('a[id=\"loginLink\"]').click();\npageobj1.eneterusrname1();\npageobj1.enterpassword1();\npageobj1.clickonlogin1();",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '<a.btn.btn-primary.btn-lg>' to contain 'testing123'",
+                "estack": "AssertionError: Timed out retrying: expected '<a.btn.btn-primary.btn-lg>' to contain 'testing123'\n    at applyChainer (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:131898:32)\n    at http://eaapp.somee.com/__cypress/runner/cypress_runner.js:131940:16\n    at arrayReduce (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:18578:21)\n    at Function.reduce (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:27576:14)\n    at applyChainers (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:131929:22)\n    at tryCatcher (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:9065:23)\n    at Function.Promise.attempt.Promise.try (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:6339:29)\n    at Context.shouldFn (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:131946:26)\n    at Context.should (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:131964:23)\n    at http://eaapp.somee.com/__cypress/runner/cypress_runner.js:127819:39\n    at assertions (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:128079:14)\n    at tryCatcher (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:9065:23)\n    at Object.gotValue (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:8209:18)\n    at Object.gotAccum (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:8196:25)\n    at Object.tryCatcher (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:9065:23)\n    at Promise._settlePromiseFromHandler (http://eaapp.somee.com/__cypress/runner/cypress_runner.js:7000:31)",
+                "diff": null
+              },
+              "uuid": "b59b3968-f73d-42a6-9735-b6b967d7a172",
+              "parentUUID": "ed89d62b-dd55-48c3-bc99-585ee83d78ee",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "b59b3968-f73d-42a6-9735-b6b967d7a172"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 11602,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "5.0.0"
+    },
+    "marge": {
+      "options": {},
+      "version": "4.1.0"
+    }
+  }
+}
