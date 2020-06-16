@@ -19,11 +19,11 @@ Given('I click on Login btn', ()=>{
     
     )
 
-    And('I enter login details', ()=>{
+    And('I enter login details with {string} and {string}', (username,password)=>{
 
-        cy.get('input[name="UserName"]').type('admin')
+        cy.get('input[name="UserName"]').type(username)
 
-        cy.get('input[name="Password"]').type('password')
+        cy.get('input[name="Password"]').type(password)
         }
         
         )

@@ -1,12 +1,13 @@
 {
-  
-
+    "baseUrl":"http://eaapp.somee.com/",
+    
     "env": {
         "url":"https://admin-demo.nopcommerce.com/login",
         "password": "password",
         "some": "value",
-        "url1":"http://eaapp.somee.com/"
-
+        "url1":"http://eaapp.somee.com/",
+        "name":"John"
+        
       },
       
       "reporter": "mochawesome"
